@@ -1,0 +1,7 @@
+web:
+  volumes:
+    - .:/go/src/testAPI
+  build: .
+  ports:
+    - "8080:8080"
+  command: bee run -downdoc=true -gendoc=true &

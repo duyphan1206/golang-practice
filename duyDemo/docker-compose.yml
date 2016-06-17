@@ -1,0 +1,7 @@
+web:
+  volumes:
+    - .:/go/src/duyDemo
+  build: .
+  ports:
+    - "8080:8080"
+  command: bee run &
