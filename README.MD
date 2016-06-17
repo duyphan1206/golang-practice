@@ -1,4 +1,4 @@
 Training Golang language by example 
 
-# Golang 
-# Beego
+# Golang : https://golang.org/
+# Beego : http://beego.me/
